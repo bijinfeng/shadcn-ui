@@ -1,0 +1,11 @@
+pnpm-lock.yaml
+tsconfig.json
+package.json
+full_documentation.json
+
+*.md
+*.json
+*.yaml
+
+assets/
+src/components/ui
