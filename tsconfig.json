@@ -11,10 +11,13 @@
     "skipDefaultLibCheck": true,
     "skipLibCheck": true,
     "jsx": "react-jsx",
+    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
-    "declaration": false
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "outDir": "dist"
   },
   "include": ["src"]
 }

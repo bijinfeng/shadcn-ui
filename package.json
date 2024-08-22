@@ -1,18 +1,22 @@
 {
   "name": "@pingtou/shadcn-ui",
   "type": "module",
-  "version": "1.0.0",
-  "description": "",
+  "version": "1.0.1",
+  "description": "Repackaging of shadcn-ui components",
   "author": "bijinfeng",
-  "license": "ISC",
-  "keywords": [],
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "components",
+    "shadcn-ui",
+    "tailwind"
+  ],
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "unpkg": "dist/umd/ui.min.js",
-  "types": "src/index.ts",
+  "types": "dist/esm/index.d.ts",
   "files": [
     "dist",
-    "src",
     "tailwind.config.js"
   ],
   "scripts": {
@@ -20,7 +24,6 @@
     "prepare": "husky install",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "preinstall": "npx -y only-allow pnpm",
     "changeset": "changeset",
     "ci:publish": "changeset publish",
     "ci:version": "changeset version"
