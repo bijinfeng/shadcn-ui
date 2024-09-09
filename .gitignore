@@ -132,3 +132,5 @@ dist
 # server
 packages/server/src/extensions/
 packages/server/types/generated/
+
+*storybook.log
